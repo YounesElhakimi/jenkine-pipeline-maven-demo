@@ -10,8 +10,8 @@ pipeline {
     stages {
         stage("Build") {
             steps {
-                sh "mvn --version"
-                sh "mvn install"
+                bat "mvn --version"
+                bat "mvn install"
             }
         }
     }
